@@ -1,10 +1,10 @@
 import random
-from join.over import sm
+from join.over import n
 
 bot_scores=0
 def bowling():
     bot_score=0
-    for i in range(sm):
+    for i in range(n[0]):
         pc = random.randint(1,10)
         print('the bot number : **')
         run=int(input('enter the number b/w 1 t0 10 : '))

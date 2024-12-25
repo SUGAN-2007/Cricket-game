@@ -22,7 +22,7 @@ def decs(x,y):
             batting()
             
         else:
-            print('Disqualified') 
+            decs(x,y) 
     else:
         print(" ")
         print('bot choose to :',f)
@@ -40,7 +40,5 @@ def decs(x,y):
             print("\n\n your's bowling turn")
             bowling()
 
-
-    import join.end as end
 
 
