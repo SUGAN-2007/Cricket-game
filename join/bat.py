@@ -1,10 +1,10 @@
 import random
-from join.over import s
+from join.over import sm
 
 player_scores=0
 def batting():
     player_score=0
-    for i in range(s):
+    for i in range(sm):
         pc = random.randint(1,10)
         run=int(input('enter the number b/w 1 t0 10 : '))
         print(f'the bot number : {pc}')

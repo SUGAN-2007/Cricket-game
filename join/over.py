@@ -1,12 +1,15 @@
-o=+int(input('number of overs (1,2,5,10,20):'))
-s=o*6
+s = None
 def over():
-    over=[1,2,5,10,20]
-
-    if o in over:
+    ovesr=[1,2,5,10,20]
+    o=+int(input('number of overs (1,2,5,10,20):'))
+    global s
+    n=o*6
+    s=n
+    if o in ovesr:
         print(f'you choose: {o} overs')
     
     else:
         print('choose correct overs')
-        for i in range(0):
-            break
+        over()
+sm=s
+
