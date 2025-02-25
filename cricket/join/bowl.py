@@ -18,7 +18,7 @@ def bowling():
         global bot_scores
         bot_scores+=bot_score
         print(f'the bot score : {bot_score}')
-    except valueError:
+    except ValueError:
         print('enter the correct number')
         bowling()
 

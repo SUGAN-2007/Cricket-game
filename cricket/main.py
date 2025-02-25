@@ -8,9 +8,8 @@ print("")
 def tosss():
     coin=input('Head or Tail:').lower()
     toss=['head','tail']
-    tosse=random.choices(toss)   
     if coin in toss:
-        f=''.join(tosse)
+        f=''.join(toss)
         print (f,'wins')
         x=decs(coin,f)
     else:
