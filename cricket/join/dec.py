@@ -32,7 +32,7 @@ def decs(x,y):
             bowling() 
             print("\n\n your's batting turn")
             batting()
-
+ 
         else:
             print('')
             print('bot choose to bowl first') 

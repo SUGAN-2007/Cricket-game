@@ -10,7 +10,7 @@ def bowling():
             print('the bot number : **')
             run=int(input('enter the number b/w 1 t0 10 : '))
             if run != pc and run <=10:
-                print(f'the bot number : {pc}')
+                print(f'the bot number : {pc}') 
                 bot_score+=run
             else:
                 print('bot is out')
