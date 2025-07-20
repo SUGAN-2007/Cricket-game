@@ -7,10 +7,10 @@ def batting():
 
         player_score=0
         for i in range(n[0]):
-            pc = random.randint(1,10)
+            pc = random.randint(1,6)
             run=int(input('enter the number b/w 1 t0 10 : '))
             print(f'the bot number : {pc}')
-            if run != pc and run <=10:
+            if run != pc and run <=6:
                 player_score+=run
             else:
                 print('you are out')

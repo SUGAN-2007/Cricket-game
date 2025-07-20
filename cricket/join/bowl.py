@@ -6,10 +6,10 @@ def bowling():
     try:
         bot_score=0
         for i in range(n[0]):
-            pc = random.randint(1,10)
+            pc = random.randint(1,6)
             print('the bot number : **')
-            run=int(input('enter the number b/w 1 t0 10 : '))
-            if run != pc and run <=10:
+            run=int(input('enter the number b/w 1 t0 6 : '))
+            if run != pc and run <=6:
                 print(f'the bot number : {pc}') 
                 bot_score+=run
             else:
